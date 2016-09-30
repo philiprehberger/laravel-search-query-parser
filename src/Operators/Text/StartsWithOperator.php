@@ -11,7 +11,12 @@ class StartsWithOperator extends AbstractOperator
 {
     public function apply(Builder $query, string $field, mixed $value): Builder
     {
-        return $query->where($field, 'like', "{$value}%");
+        $escaped = str_replace(['\\', '%', '_'], ['\\\\', '\\%', '\\_'], (string) $value);
+
+        return $query->whereRaw(
+            sprintf('"%s" like ? escape \'\\\'', str_replace('"', '""', $field)),
+            ["{$escaped}%"]
+        );
     }
 
     public function getLabel(): string
