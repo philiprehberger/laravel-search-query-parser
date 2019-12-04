@@ -241,6 +241,15 @@ readonly class ParsedQuery
 }
 ```
 
+## Development
+
+```bash
+composer install
+vendor/bin/phpunit
+vendor/bin/pint --test
+vendor/bin/phpstan analyse
+```
+
 ## License
 
 MIT License. Copyright (c) 2026 Philip Rehberger. See [LICENSE](LICENSE) for details.
