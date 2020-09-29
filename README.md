@@ -1,8 +1,7 @@
-# laravel-search-query-parser
+# Laravel Search Query Parser
 
 [![Tests](https://github.com/philiprehberger/laravel-search-query-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/philiprehberger/laravel-search-query-parser/actions/workflows/tests.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/philiprehberger/laravel-search-query-parser.svg)](https://packagist.org/packages/philiprehberger/laravel-search-query-parser)
-[![PHP Version Require](https://img.shields.io/packagist/php-v/philiprehberger/laravel-search-query-parser.svg)](https://packagist.org/packages/philiprehberger/laravel-search-query-parser)
 [![License](https://img.shields.io/github/license/philiprehberger/laravel-search-query-parser)](LICENSE)
 
 Parse GitHub-style search queries into structured filters for Laravel Eloquent. Supports `field:value` syntax, comparison operators, comma-separated values, exclusion terms, and relation filters — all from a single search string.
@@ -241,6 +240,29 @@ readonly class ParsedQuery
 }
 ```
 
+## API
+
+### `QueryParser`
+
+| Method | Description |
+|--------|-------------|
+| `parse(string $query): ParsedQuery` | Parse a query string into a structured `ParsedQuery` DTO |
+| `build(ParsedQuery $parsed): string` | Serialize a `ParsedQuery` back into a query string |
+| `getSyntaxHelp(): array` | Return all supported syntax patterns for tooltips or autocomplete |
+
+### `ParsedQuery` DTO
+
+| Property / Method | Type | Description |
+|-------------------|------|-------------|
+| `$textSearch` | `string` | Free-text portion of the query |
+| `$filters` | `array` | Structured filters: `[{field, operator, value}]` |
+| `$excludeTerms` | `array<string>` | Terms prefixed with `-` |
+| `hasTextSearch(): bool` | — | Whether a free-text term is present |
+| `hasFilters(): bool` | — | Whether any field filters are present |
+| `hasExcludeTerms(): bool` | — | Whether any exclusion terms are present |
+| `isEmpty(): bool` | — | Whether the query produced no results |
+| `toArray(): array` | — | Serialize to array |
+
 ## Development
 
 ```bash
@@ -252,5 +274,5 @@ vendor/bin/phpstan analyse
 
 ## License
 
-MIT License. Copyright (c) 2026 Philip Rehberger. See [LICENSE](LICENSE) for details.
+MIT
 
