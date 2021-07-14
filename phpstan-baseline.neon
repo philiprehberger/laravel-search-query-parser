@@ -1,0 +1,397 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\AbstractOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/AbstractOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\AbstractOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/AbstractOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\HasAllOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/HasAllOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\HasAllOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/HasAllOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\HasAnyOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/HasAnyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\HasAnyOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/HasAnyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\InOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/InOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\InOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/InOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\NotInOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/NotInOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Array\\NotInOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Array/NotInOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateAfterOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateAfterOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateAfterOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateAfterOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateBeforeOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateBeforeOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateBeforeOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateBeforeOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateBetweenOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateBetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateBetweenOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateBetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateEqualsOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateEqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateEqualsOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateEqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateInLastOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateInLastOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateInLastOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateInLastOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateInNextOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateInNextOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\DateInNextOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/DateInNextOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsThisMonthOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsThisMonthOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsThisMonthOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsThisMonthOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsThisWeekOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsThisWeekOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsThisWeekOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsThisWeekOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsTodayOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsTodayOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Date\\IsTodayOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Date/IsTodayOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\FilterOperatorInterface\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/FilterOperatorInterface.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\FilterOperatorInterface\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/FilterOperatorInterface.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\BetweenOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/BetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\BetweenOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/BetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\GreaterOrEqualOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/GreaterOrEqualOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\GreaterOrEqualOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/GreaterOrEqualOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\GreaterThanOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/GreaterThanOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\GreaterThanOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/GreaterThanOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\LessOrEqualOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/LessOrEqualOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\LessOrEqualOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/LessOrEqualOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\LessThanOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/LessThanOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\LessThanOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/LessThanOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\NotBetweenOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/NotBetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Numeric\\NotBetweenOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Numeric/NotBetweenOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasCountOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasCountOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasCountOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasCountOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasNotRelationOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasNotRelationOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasNotRelationOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasNotRelationOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasRelationOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasRelationOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Relation\\HasRelationOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Relation/HasRelationOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\ContainsOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/ContainsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\ContainsOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/ContainsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\EndsWithOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/EndsWithOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\EndsWithOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/EndsWithOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\EqualsOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/EqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\EqualsOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/EqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\IsEmptyOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/IsEmptyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\IsEmptyOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/IsEmptyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\IsNotEmptyOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/IsNotEmptyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\IsNotEmptyOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/IsNotEmptyOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\NotContainsOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/NotContainsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\NotContainsOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/NotContainsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\NotEqualsOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/NotEqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\NotEqualsOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/NotEqualsOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\StartsWithOperator\:\:apply\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/StartsWithOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\Operators\\Text\\StartsWithOperator\:\:apply\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Operators/Text/StartsWithOperator.php
+
+		-
+			message: '#^Method PhilipRehberger\\SearchQueryParser\\ParsedQuery\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 2
+			path: src/ParsedQuery.php
+
+		-
+			message: '#^Right side of && is always true\.$#'
+			identifier: booleanAnd.rightAlwaysTrue
+			count: 1
+			path: src/QueryParser.php
