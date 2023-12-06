@@ -3,6 +3,7 @@
 [![Tests](https://github.com/philiprehberger/laravel-search-query-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/philiprehberger/laravel-search-query-parser/actions/workflows/tests.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/philiprehberger/laravel-search-query-parser.svg)](https://packagist.org/packages/philiprehberger/laravel-search-query-parser)
 [![License](https://img.shields.io/github/license/philiprehberger/laravel-search-query-parser)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Parse GitHub-style search queries into structured filters for Laravel Eloquent. Supports field:value, comparisons, exclusions, and relation filters.
 
