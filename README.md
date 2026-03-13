@@ -73,6 +73,8 @@ public function __construct(private QueryParser $parser) {}
 - Field names must match `/^[a-zA-Z_][a-zA-Z0-9_]*$/` — digits-first tokens fall through to text search.
 - `has:` and `no:` prefix matching is case-insensitive.
 
+> **Security:** Text operators (`ContainsOperator`, `StartsWithOperator`, `EndsWithOperator`, `NotContainsOperator`) automatically escape LIKE wildcards (`%` and `_`) in user input to prevent wildcard injection.
+
 ## Operator Reference
 
 ### Text Operators

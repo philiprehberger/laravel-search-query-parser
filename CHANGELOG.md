@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-03-13
+
+### Fixed
+- LIKE wildcard injection in text operators (`ContainsOperator`, `StartsWithOperator`, `EndsWithOperator`, `NotContainsOperator`) — `%` and `_` in user input are now escaped
+- `IsTodayOperator` now uses explicit `=` operator in `whereDate()` call
+
+### Added
+- Operator-level test suite (`tests/OperatorTest.php`) with 12 tests covering all text operators and `IsTodayOperator`
+
 ## [1.0.0] - 2026-03-05
 
 ### Added

@@ -11,7 +11,7 @@ class IsTodayOperator extends AbstractOperator
 {
     public function apply(Builder $query, string $field, mixed $value): Builder
     {
-        return $query->whereDate($field, now()->toDateString());
+        return $query->whereDate($field, '=', now()->toDateString());
     }
 
     public function getLabel(): string
