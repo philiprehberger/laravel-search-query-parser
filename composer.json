@@ -2,7 +2,9 @@
     "name": "philiprehberger/laravel-search-query-parser",
     "description": "Parse GitHub-style search queries into structured filters for Laravel Eloquent. Supports field:value, comparisons, exclusions, and relation filters.",
     "keywords": ["laravel", "search", "query", "parser", "filter", "eloquent"],
+    "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/philiprehberger/laravel-search-query-parser",
     "authors": [
         {
             "name": "Philip Rehberger",
@@ -35,6 +37,11 @@
                 "PhilipRehberger\\SearchQueryParser\\SearchQueryParserServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "lint": "vendor/bin/pint",
+        "analyse": "vendor/bin/phpstan analyse"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
